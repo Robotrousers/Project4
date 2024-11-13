@@ -37,6 +37,7 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 
     resources\
     - Screenshot 2024-11-12 201857.png - Screenshot of the metrics for this dataset
+    - Group1Proposal.pdf - Document for project proposal
 
     data\
     - winequality-white.csv - dataset for the data science job market
