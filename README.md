@@ -32,7 +32,7 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 ### This repo contains the following files:
 ```yaml
     root\
-    - wine_quality.ipynb - the Jupyter Notebook file with our code for the project
+    - VinoVista.ipynb - the Jupyter Notebook file with our code for the project
     - README.md
 
     resources\
