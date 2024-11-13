@@ -54,7 +54,5 @@ Programming Language: Python (Jupyter Notebook, Pandas Library)
 ```
 
 
-![Screenshot 2024-09-17 204740](https://github.com/user-attachments/assets/6f6d9d56-ec32-481c-a137-e811fe11e67d)
-
 ### Resources, Cites
 - *Site1* - explanation
