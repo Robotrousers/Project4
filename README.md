@@ -21,6 +21,7 @@ The primary objective of this project is to develop a robust machine learning mo
 ### Visualization for Data Exploration
 
 
+
 #### Key Metrics in this data
 ![Variables](Resources/Screenshot 2024-11-12 201857.png)
 
@@ -44,12 +45,10 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, SckitLearn)
 ```yaml
     root\
     - wine_quality.ipynb - the Jupyter Notebook file with our code for the project
-    - 
     - README.md
 
     resources\
-    - 
-    - 
+    - Screenshot 2024-11-12 201857.png - Screenshot of the metrics for this dataset
 
     data\
     - winequality-white.csv - dataset for the data science job market
