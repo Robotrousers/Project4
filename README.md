@@ -47,11 +47,9 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 ### Resources, Cites
 - *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality
 - *XGBoost and Ensemble Modeling* - https://machinelearningmastery.com/random-forest-ensembles-with-xgboost/
-- 
-### Resources, Cites
-<<<<<<< cepheus
-- *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality 
 
+
+=======
 ### Notes on wine componets 
     1. Fixed Acidity
 Effect: Represents non-volatile acids in wine, such as tartaric, malic, and citric acids. It contributes to the overall acidity and freshness of the wine.
@@ -108,7 +106,7 @@ Effect: Produced during fermentation, where sugars are converted to ethanol. Alc
 
 Impact on Taste: Higher alcohol levels contribute to a fuller body and a warming sensation. However, if the alcohol is too high relative to other components, it can make the wine taste hot or unbalanced.
 
-### Summary:
+### Summary: <br>
 Balance: The interplay between acidity, sugar, and alcohol determines the balance of the wine.
 Aroma and Flavor: Volatile acidity, sulphates, and residual sugar can influence the aroma and complexity.
 Mouthfeel: Factors like alcohol, sugar, and chlorides affect the texture and body of the wine.
