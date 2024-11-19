@@ -45,4 +45,5 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 
 
 ### Resources, Cites
-- *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality 
+- *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality
+- *XGBoost and Ensemble Modeling* - https://machinelearningmastery.com/random-forest-ensembles-with-xgboost/
