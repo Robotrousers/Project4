@@ -47,3 +47,20 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 ### Resources, Cites
 - *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality
 - *XGBoost and Ensemble Modeling* - https://machinelearningmastery.com/random-forest-ensembles-with-xgboost/
+
+
+#### Some Notes:
+```yaml
+Beau Massie
+  7:01 PM
+sugar: inverse of alcohol, mouth feel
+Chlorides: salt content (could be droppable)
+SO2: preservative (should be static)
+total SO2: same as SO2 cant be to high
+density: mouth feel and sugar content could be droppable feature
+Ph: Could be droppable and used to remove outliers
+Sulphates same as SO2
+Alcohol: inverse of sugar
+
+
+```
