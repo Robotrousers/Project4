@@ -47,20 +47,69 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 ### Resources, Cites
 - *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality
 - *XGBoost and Ensemble Modeling* - https://machinelearningmastery.com/random-forest-ensembles-with-xgboost/
+- 
+### Resources, Cites
+<<<<<<< cepheus
+- *Wine Quality* - Dataset from UC Irvine Machine Learning Repository - https://archive.ics.uci.edu/dataset/186/wine+quality 
 
+### Notes on wine componets 
+    1. Fixed Acidity
+Effect: Represents non-volatile acids in wine, such as tartaric, malic, and citric acids. It contributes to the overall acidity and freshness of the wine.
 
-#### Some Notes:
-```yaml
-Beau Massie
-  7:01 PM
-sugar: inverse of alcohol, mouth feel
-Chlorides: salt content (could be droppable)
-SO2: preservative (should be static)
-total SO2: same as SO2 cant be to high
-density: mouth feel and sugar content could be droppable feature
-Ph: Could be droppable and used to remove outliers
-Sulphates same as SO2
-Alcohol: inverse of sugar
+Impact on Taste: Higher levels enhance tartness and crispness, which can be desirable in white wines. However, too much fixed acidity can make the wine taste overly sour.
 
+    2. Volatile Acidity
+Effect: Mainly refers to acetic acid, which can turn into vinegar if present in high concentrations. It's a measure of the acids that can evaporate and contribute to the aroma.
 
-```
+Impact on Taste: Low levels can add complexity, but high levels result in unpleasant, vinegary flavors. Acceptable limits for volatile acidity are often higher in red wines compared to whites.
+
+    3. Citric Acid
+Effect: Naturally found in small amounts in wine, it adds freshness and enhances the fruitiness of the wine.
+
+Impact on Taste: Gives a slight sharpness and can brighten the flavor profile, especially in white wines, making them taste fresher.
+
+    4. Residual Sugar
+Effect: The sugar left after fermentation. It's a key factor in determining the sweetness level of the wine.
+
+Impact on Taste: High residual sugar leads to sweeter wines, while low residual sugar results in drier wines. It can also balance acidity, making the wine taste smoother.
+
+    5. Chlorides
+Effect: Reflects the salt content in wine, often derived from the soil in which the grapes were grown.
+
+Impact on Taste: Adds body and mouthfeel. However, high levels can make the wine taste salty or brackish, which is generally undesirable.
+
+    6. Free Sulfur Dioxide (SO₂)
+Effect: Acts as an antioxidant and antimicrobial agent, protecting wine from oxidation and spoilage.
+
+Impact on Taste: Adequate levels preserve the wine's freshness and prevent spoilage. However, excessive sulfur dioxide can impart a pungent, chemical-like taste and aroma.
+
+    7. Total Sulfur Dioxide
+Effect: The sum of bound and free SO₂ in wine. It’s a crucial preservative used during the winemaking process.
+
+Impact on Taste: While necessary for stability, high levels can cause off-flavors and are a common cause of headaches for sensitive drinkers.
+
+    8. Density
+Effect: Often used to estimate the sugar content in wine. A higher density indicates a higher sugar level, which can suggest sweetness.
+
+Impact on Taste: Affects mouthfeel; wines with higher density often feel fuller or richer. It’s also an indicator of the alcohol and sugar content balance.
+
+    9. pH
+Effect: Measures the acidity level. A lower pH means higher acidity, contributing to the wine’s stability and shelf life.
+
+Impact on Taste: Lower pH wines taste sharper and more acidic, while higher pH wines can taste flabby or less vibrant. Most wines have a pH between 3.0 and 4.0, with whites generally being more acidic (lower pH) than reds.
+
+    10. Sulphates
+Effect: Often added to wine as a preservative to prevent oxidation and microbial growth.
+
+Impact on Taste: Can enhance the wine’s flavor profile and longevity but, in excess, may lead to bitter or metallic notes.
+
+    11. Alcohol
+Effect: Produced during fermentation, where sugars are converted to ethanol. Alcohol content is a key factor in the body and warmth of the wine.
+
+Impact on Taste: Higher alcohol levels contribute to a fuller body and a warming sensation. However, if the alcohol is too high relative to other components, it can make the wine taste hot or unbalanced.
+
+### Summary:
+Balance: The interplay between acidity, sugar, and alcohol determines the balance of the wine.
+Aroma and Flavor: Volatile acidity, sulphates, and residual sugar can influence the aroma and complexity.
+Mouthfeel: Factors like alcohol, sugar, and chlorides affect the texture and body of the wine.
+=======
