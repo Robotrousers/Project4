@@ -10,11 +10,6 @@ VinoVista, a renowned winery, is committed to producing consistently exceptional
 The primary objective of this project is to develop a robust machine learning model capable of predicting wine quality on a scale of 0-10. This model will utilize a dataset containing various chemical properties of wine, such as acidity, pH, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, sulfates, and alcohol content.
 
 
-#### Key Metrics in this data
-![Variables](Resources/Screenshot 2024-11-12 201857.png)
-
-
-
 #### Collaborators:
 ```yaml
 Chuck Bui
@@ -50,7 +45,7 @@ Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
 
 
 =======
-### Notes on wine componets
+#### Key Metrics in this data
     1. Fixed Acidity
 Effect: Represents non-volatile acids in wine, such as tartaric, malic, and citric acids. It contributes to the overall acidity and freshness of the wine.
 
