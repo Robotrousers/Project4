@@ -29,6 +29,8 @@ Lirbraries: Pandas, Seaborn, matplotlib, ScikitLearn (various)
 ```yaml
     root\
     - VinoVista.ipynb - the Jupyter Notebook file with our code for the project
+    - Project4_VinoVista_Presentation.pdf - Powerpoint export of presentation
+    - Project_4_Case_Study.pdf - Word doc export of case study explanation
     - README.md
 
     resources\
