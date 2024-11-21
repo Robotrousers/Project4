@@ -104,7 +104,26 @@ Effect: Produced during fermentation, where sugars are converted to ethanol. Alc
 
 Impact on Taste: Higher alcohol levels contribute to a fuller body and a warming sensation. However, if the alcohol is too high relative to other components, it can make the wine taste hot or unbalanced.
 
-### Summary: <br>
+### Feature Summary: <br>
 Balance: The interplay between acidity, sugar, and alcohol determines the balance of the wine.
 Aroma and Flavor: Volatile acidity, sulphates, and residual sugar can influence the aroma and complexity.
 Mouthfeel: Factors like alcohol, sugar, and chlorides affect the texture and body of the wine.
+
+### Extraction <br>
+We extracted data from UC Irvine (Wine Quality - Dataset from UC Irvine Machine Learning Repository (https://archive.ics.uci.edu/dataset/186/wine+quality) as a CSV and used pandas to read it in Jupyter Notebook.
+
+### Transform <br>
+We began by checking for null values in our dataset and found none across all 4,898 rows. Through research, we discovered that in wine production, Total Sulfur Dioxide levels are typically static 
+and rarely exceed 150. Based on this, we identified any values above 150 as likely quality mishaps or data entry errors. Removing these outliers reduced the dataset to 3,090 rows. To improve overall accuracy, we decided to simplify the target variable by categorizing wine quality into two groups: "good" and "not good." To determine the cutoff between these categories, we analyzed the overall distribution of quality ratings to make a data-driven decision. We observed an overabundance of quality scores of 6 in our dataset. Based on this, we defined "good" wines as those with a quality 
+score of 7 or higher. This categorization resulted in 2,246 entries classified as "bad" and 844 as "good." When comparing the means of various features between these two groups, we found that residual sugar (bad: 5.23, good: 4.41) and free sulfur dioxide (bad: 27.71, good: 31.92) showed the most significant differences. These findings suggest that the distinction between a "bad" and "good" wine is subtle and influenced by small variations in key chemical properties. After further research, we found that a wine’s pH should always be between 3 and 4. Among the small number of wines with quality scores outside the 3–4 range, the majority were classified as bad. This suggests that such scores likely result from quality mishaps rather than being representative 
+of production norms. To explore multicollinearity, we examined the relationships between residual sugar, density, and alcohol. Our analysis revealed that residual sugar is positively correlated with density and negatively correlated with alcohol.
+
+### The Model  
+For our data, XGBoost provided the best results, achieving an overall accuracy of 84%. Breaking it down, the model performed better in identifying "bad" wines (True), with a precision of 0.88 and a recall of 0.90, leading to an F1-score of 0.89. For "good" wines (False), the precision was 0.71, recall was 0.68, and the F1-score was 0.69. These metrics indicate that while the model is more effective at identifying "bad" wines, it still performs reasonably well for "good" ones. The F1-score is particularly useful here because it combines precision (how many predicted positives 
+were actually correct) and recall (how many actual positives were identified) into a single measure. This makes it a balanced metric for evaluating the model, especially when there’s an imbalance in the classes, as seen in our dataset.
+
+### Considerations 
+Our dataset comes from the food industry, where quality ratings from tasters are inherently subjective. Despite this, we believe our model's results are very strong. Additionally, the relatively small size of our dataset may contribute to a slight loss in accuracy. The overrepresentation of bad wines in the data has also led to an accuracy imbalance, particularly when predicting good wines. 
+
+### Conclusion 
+Our model excels at predicting bad wines. VinoVista, a well-established company, primarily produces wines with quality ratings of 6. In our effort to push for higher quality, the model could be leveraged for rapid, small-batch research and development. We also recommend using the model for quick packaging and customer decision-making. Quality ratings from tasters can take time to receive, but our model allows for swift detection and prediction of bad wines, which are most likely to receive a rating of 6. These wines could then be allocated as table wine batches, targeting high-volume, lower-quality customers more efficiently. This approach could lead to increased productivity, enhanced customer service, and reduced delays in awaiting test results. While the slightly lower accuracy for good wines means confirmation from tasters is still necessary, the model’s strategic application can significantly improve order fulfillment and streamline R&D processes overall.
