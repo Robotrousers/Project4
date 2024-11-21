@@ -20,7 +20,8 @@ Christopher Turner
 
 ### Proposed Technologies:
 ```yaml
-Programming Language: Python (Jupyter Notebook, Pandas Library, ScikitLearn)
+Programming Language: Python
+Lirbraries: Pandas, Seaborn, matplotlib, ScikitLearn (various)
 
 ```
 
